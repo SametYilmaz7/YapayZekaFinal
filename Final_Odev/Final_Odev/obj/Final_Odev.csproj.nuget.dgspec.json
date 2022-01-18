@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samet\\source\\repos\\Final_Odev\\Final_Odev\\Final_Odev.csproj": {}
+    "C:\\Users\\samet\\OneDrive\\Masaüstü\\YapayZeka\\Final_Odev\\Final_Odev\\Final_Odev.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samet\\source\\repos\\Final_Odev\\Final_Odev\\Final_Odev.csproj": {
+    "C:\\Users\\samet\\OneDrive\\Masaüstü\\YapayZeka\\Final_Odev\\Final_Odev\\Final_Odev.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samet\\source\\repos\\Final_Odev\\Final_Odev\\Final_Odev.csproj",
+        "projectUniqueName": "C:\\Users\\samet\\OneDrive\\Masaüstü\\YapayZeka\\Final_Odev\\Final_Odev\\Final_Odev.csproj",
         "projectName": "Final_Odev",
-        "projectPath": "C:\\Users\\samet\\source\\repos\\Final_Odev\\Final_Odev\\Final_Odev.csproj",
+        "projectPath": "C:\\Users\\samet\\OneDrive\\Masaüstü\\YapayZeka\\Final_Odev\\Final_Odev\\Final_Odev.csproj",
         "packagesPath": "C:\\Users\\samet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samet\\source\\repos\\Final_Odev\\Final_Odev\\obj\\",
+        "outputPath": "C:\\Users\\samet\\OneDrive\\Masaüstü\\YapayZeka\\Final_Odev\\Final_Odev\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\samet\\AppData\\Roaming\\NuGet\\NuGet.Config",

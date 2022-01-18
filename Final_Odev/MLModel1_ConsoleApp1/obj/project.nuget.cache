@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9YSsPsk2nQHDbJ2SvdAg+m9jdKfZuM5tfYGKCSHoTQT7nKxPJrSRPRZb8DSvsgZLDx4Z19m3YjDC21GbzFwKOg==",
+  "dgSpecHash": "nIXxrWGNzQ8657KbXFOsNtJb6bModbyBN0i4CQkmCq3ZhDs00YTor8rgc9nKwHuEiaFnKsE884KjmJ2OR/7jdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\samet\\source\\repos\\Final_Odev\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj",
+  "projectFilePath": "C:\\Users\\samet\\OneDrive\\Masaüstü\\YapayZeka\\Final_Odev\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samet\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\samet\\.nuget\\packages\\microsoft.ml\\1.7.0\\microsoft.ml.1.7.0.nupkg.sha512",

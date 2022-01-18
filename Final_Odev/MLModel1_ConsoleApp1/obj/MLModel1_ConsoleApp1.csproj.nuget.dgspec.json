@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samet\\source\\repos\\Final_Odev\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj": {}
+    "C:\\Users\\samet\\OneDrive\\Masaüstü\\YapayZeka\\Final_Odev\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samet\\source\\repos\\Final_Odev\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj": {
+    "C:\\Users\\samet\\OneDrive\\Masaüstü\\YapayZeka\\Final_Odev\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samet\\source\\repos\\Final_Odev\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\samet\\OneDrive\\Masaüstü\\YapayZeka\\Final_Odev\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj",
         "projectName": "MLModel1_ConsoleApp1",
-        "projectPath": "C:\\Users\\samet\\source\\repos\\Final_Odev\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\samet\\OneDrive\\Masaüstü\\YapayZeka\\Final_Odev\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\samet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samet\\source\\repos\\Final_Odev\\MLModel1_ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\samet\\OneDrive\\Masaüstü\\YapayZeka\\Final_Odev\\MLModel1_ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\samet\\AppData\\Roaming\\NuGet\\NuGet.Config",

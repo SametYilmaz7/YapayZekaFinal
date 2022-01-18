@@ -15,77 +15,78 @@ namespace Final_Odev
             float HomeShot;
             float AwayCorner;
 
-            while (true)
+            while (true) //Kullanıcı programa "cikis" yazana kadar döngüyü devam ettiriyor.
             {
                 Console.WriteLine("******************Skor Tahmin Etme Programi******************");
-            startHomeTeam:
+            
+            startHomeTeam: 
                 Console.Write("Ev Sahibi takimi girin: ");
-                HomeTeam = Console.ReadLine();
+                HomeTeam = Console.ReadLine(); //HomeTeam için kullancıdan veri alıyoruz.
 
                 if (HomeTeam == "" || HomeTeam == " ")
                 {
                     Console.WriteLine("Bos veri girilemez!");
-                    goto startHomeTeam;
+                    goto startHomeTeam; //Eğer boş veri girerse başa dönmesi için goto kullandık.
                 }
 
             startAwayTeam:
                 Console.Write("Rakip takimi girin: ");
-                AwayTeam = Console.ReadLine();
+                AwayTeam = Console.ReadLine(); //AwayTeam için kullancıdan veri alıyoruz.
 
-                if (HomeTeam == "" || HomeTeam == " ")
+                if (AwayTeam == "" || AwayTeam == " ")
                 {
                     Console.WriteLine("Bos veri girilemez!");
-                    goto startAwayTeam;
+                    goto startAwayTeam; //Eğer boş veri girerse başa dönmesi için goto kullandık.
                 }
 
             startFTHomeGol:
                 Console.Write("Ev sahibi takimin attigi toplam gol sayisi: ");
-                FTHomeGol = float.Parse(Console.ReadLine());
+                FTHomeGol = float.Parse(Console.ReadLine()); //FTHomeGol için kullancıdan veri alıyoruz.
 
                 if (FTHomeGol < 0)
                 {
                     Console.WriteLine("Sayi negatif olamaz!");
-                    goto startFTHomeGol;
+                    goto startFTHomeGol; //Eğer negatif bir deger girerse başa dönmesi için goto kullandık.
                 }
 
             startFTAwayGol:
                 Console.Write("Rakip takimin attigi toplam gol sayisi: ");
-                FTAwayGol = float.Parse(Console.ReadLine());
+                FTAwayGol = float.Parse(Console.ReadLine()); //FTAwayGol için kullancıdan veri alıyoruz.
 
                 if (FTAwayGol < 0)
                 {
                     Console.WriteLine("Sayi negatif olamaz!");
-                    goto startFTAwayGol;
+                    goto startFTAwayGol; //Eğer negatif bir deger girerse başa dönmesi için goto kullandık.
                 }
 
             startHomeShot:
                 Console.Write("Ev sahibi takimin attigi sut sayisi: ");
-                HomeShot = float.Parse(Console.ReadLine());
+                HomeShot = float.Parse(Console.ReadLine()); //HomeShot için kullancıdan veri alıyoruz.
 
                 if (HomeShot < 0)
                 {
                     Console.WriteLine("Sayi negatif olamaz!");
-                    goto startHomeShot;
+                    goto startHomeShot; //Eğer negatif bir deger girerse başa dönmesi için goto kullandık.
                 }
 
             startAwayShot:
                 Console.Write("Rakip takimin attigi sut sayisi: ");
-                AwayShot = float.Parse(Console.ReadLine());
+                AwayShot = float.Parse(Console.ReadLine()); //AwayShot için kullancıdan veri alıyoruz.
 
                 if (AwayShot < 0)
                 {
                     Console.WriteLine("Sayi negatif olamaz!");
-                    goto startAwayShot;
+                    goto startAwayShot; //Eğer negatif bir deger girerse başa dönmesi için goto kullandık.
                 }
 
             startAwayCorner:
                 Console.Write("Rakip takimin attigi korner sayisi: ");
-                AwayCorner = float.Parse(Console.ReadLine());
+                AwayCorner = float.Parse(Console.ReadLine()); //AwayCorner için kullancıdan veri alıyoruz.
 
                 if (AwayCorner < 0)
                 {
                     Console.WriteLine("Sayi negatif olamaz!");
-                    goto startAwayCorner;
+                    goto startAwayCorner; //Eğer negatif bir deger girerse başa dönmesi için goto kullandık.
                 }
 
                 MLModel1.ModelInput sampleData = new MLModel1.ModelInput()
@@ -114,7 +115,8 @@ namespace Final_Odev
                 Console.WriteLine($"\n\nTahmin edilen ev sahibi takimin attigi korner sayisi: {predictionResult.Score}\n\n");
                 Console.Write("Cikmak icin cikis, devam etmek icin herhangi bir sey yaziniz. ");
                 quit = Console.ReadLine();
-                if (quit == "cikis") break;
+                if (quit == "cikis") break; //Eger kullanıcı işlemin sonunda "cikis" yazarsa program sonlanacak.
+
             }
                 Console.ReadKey();
             

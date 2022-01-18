@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "55VPgCovCQ80SDhKhy7JL4s99Y4nyR6F3em6Y+VjMKIbIZj2WRdXF2i0Xjfg6Ygfl/OBWYz+QIQLqxLGZZ9FyQ==",
+  "dgSpecHash": "ITBRa5oTqH+YFr/C/xjp+Zoe8fkdY8rgoccdauzbaOIUXbkcWUcy1IlStWqzuPC1oRtpMq9dxPEAgarv789cbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\samet\\source\\repos\\Final_Odev\\Final_Odev\\Final_Odev.csproj",
+  "projectFilePath": "C:\\Users\\samet\\OneDrive\\Masaüstü\\YapayZeka\\Final_Odev\\Final_Odev\\Final_Odev.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samet\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\samet\\.nuget\\packages\\microsoft.ml\\1.7.0\\microsoft.ml.1.7.0.nupkg.sha512",
